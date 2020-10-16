@@ -13,14 +13,14 @@
     <meta name="description" content="[Your name here] | Developer" />
     
     <!-- Required librarys -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'
     </link>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    />  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link
       rel="stylesheet"
@@ -389,66 +389,7 @@
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
-    <!--  <script type="text/javascript">
-    function submitToAPI(e) {
-       e.preventDefault();
-       var URL = "https://u7s2pattb0.execute-api.ap-northeast-1.amazonaws.com/hello";
-
-            var Namere = /[A-Za-z]{1}[A-Za-z]/;
-            if (!Namere.test($("#name-input").val())) {
-                swal("Name can not less than 2 char", "", "warning");
-                return;
-            }
-            var mobilere = /[0-9]{10}/;
-            if (!mobilere.test($("#phone-input").val())) {
-                swal("Please enter valid mobile number","", "warning", );
-                return;
-            }
-            if ($("#email-input").val()=="") {
-                swal("Please enter your email id","", "warning", );
-                return;
-            }
-
-            var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-            if (!reeamil.test($("#email-input").val())) {
-                swal( "Please enter valid email address","","warning");
-                
-                return;
-            }
-
-       var name = $("#name-input").val();
-       var phone = $("#phone-input").val();
-       var email = $("#email-input").val();
-       var desc = $("#description-input").val();
-       var data = {
-          name : name,
-          phone : phone,
-          email : email,
-          desc : desc
-        };
-
-       $.ajax({
-         type: "POST",
-         url : URL,
-         dataType: "json",
-         crossDomain: "true",
-         contentType: "application/json; charset=utf-8",
-         data: JSON.stringify(data),
-         success: function (data,status) {
-           // clear form and show a success message
-            swal("Good job!", "Form successfull!", "success", {
-              button: "Aww yiss!",
-            });
-           console.log(data);
-           console.log(status);
-         },
-         error: function () {
-           // show an error message
-           alert("UnSuccessfull");
-         }});
-     }
-    </script>
-    -->
+   
     <!-- /END Footer Section -->
   </body>
   

@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://educatornum.github.io/intro/"
+    "url": "git+https://github.com/cobidev/simplefolio"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://educatornum.github.io/intro/",
+  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
